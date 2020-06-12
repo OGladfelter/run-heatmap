@@ -1,0 +1,1 @@
+Instead of a text file here, this folder should contain GPX files. I downloaded mine from Strava.
