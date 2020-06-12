@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>             
+        <meta charset="utf-8">
+        <title>Running Heatmap</title>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Hammersmith+One" />
+
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Load d3.js -->
+        <script src="https://d3js.org/d3.v4.js"></script>
+</head>
+
+<body>
+    <article style='text-align: center; margin-top: 20px; margin-bottom: 0px;'>
+        <h1 style="margin-left: 0px; margin-bottom: 10px;">Running Heatmap</h1>
+        <span>By <a href="https://twitter.com/OGladfelter" target="_blank" class="bylineLink">Oliver Gladfelter</a></span><span style="color: gray;"> | May 10, 2020</span>
+    </article> 
+
+    <!-- Create a div where the graph will take place -->
+    <div id="lineplot" style="text-align:center; margin:auto;"></div>
+
+    <table>
+        <td class="slowButton" id="slowButton">Slow</td>
+        <td class="mediumButton" id="mediumButton">Medium</td>
+        <td class="fastButton" id="fastButton">Fast</td>
+    </table>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
